@@ -1,0 +1,45 @@
+.image-container {
+  display: flex;
+}
+.main-background-container {
+  background-color: #0f172a;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rcb-image {
+  height: 100px;
+  width: 100px;
+}
+.csk-image {
+  height: 100px;
+  width: 100px;
+}
+.heading {
+  color: #f8fafc;
+  font-family: "Roboto";
+}
+
+@media (min-width: 768px) {
+  /* CSS rules go here */
+  .rcb-image {
+    min-height: 300px;
+    min-width: 300px;
+  }
+  .csk-image {
+    min-height: 300px;
+    min-width: 300px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
